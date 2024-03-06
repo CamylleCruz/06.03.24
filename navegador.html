@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="mydiv"></div>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./react.development.js"></script>
+    <script src="./react-dom.development.js"></script>
+    <script src="./babel.min.js"></script>
+    <script src="./react-router-dom.production.min.js"></script>
+
+    <script type="text/babel">
+
+
+data-bs-target={"#navbarNav"}
+aria-controls={"navbarNav"}
+aria-expanded={"false"}
+aria-label={"Toggle navigation"}
+
+<span
+className={"navbar-toggler-icon"}></scan>
+</button>
+<divclassName={"collapse navbar-collapse"}
+id={"navbarNav"}
+
+<ul
+
+className = {"navbar-nav"}
+>
+
+<li
+className={"navbar-nav"}
+>
+
+<li
+
+className={"nav-item"}
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+const container = document.getElementById('mydiv');
+        const root = ReactDOM.createRoot(container);
+
+        root.render(
+
+            <React.StrictMode>
+                <Nome />
+                <Sobrenome />
+                <Endereço />
+                </React.StrictMode>
+
+        ) 
+        
+        //root.render(<Hello />) renderizar via objeto (retornável de função)
+        //root.render(Hello2); // renderizar via variável (contém objeto a ser renderizado)
+        //root.render(<h1> Teste </h1>); // renderização direto no renderizador
+        
